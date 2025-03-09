@@ -6,11 +6,7 @@ import { Suspense } from "react";
 import { CardsSkeleton, RevenueChartSkeleton } from "@/app/ui/skeletons";
 import { InvoicesTableSkeleton } from "../../ui/skeletons";
 
-export const dynamic = "force-dynamic";
-
 export default async function Page() {
-  // const revenue = await fetchRevenue();
-
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
